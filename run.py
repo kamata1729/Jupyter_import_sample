@@ -20,5 +20,5 @@ from mod import *
 
 if __name__ == '__main__':
     sample_class = SampleClass(10)
-    print(sample_class())
-    print(make_randint(100))
+    print("run.py: SampleClass", sample_class())
+    print("run.py: make_randint", make_randint(100))
